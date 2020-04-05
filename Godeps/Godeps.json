@@ -1,0 +1,77 @@
+{
+	"ImportPath": "m.arf.ovh/u/marf/go/hackyeah",
+	"GoVersion": "go1.13",
+	"GodepVersion": "v80",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/apuigsech/rest-layer-sql",
+			"Rev": "cf9c157299cc6e1483056081d42c792ccacdbc5f"
+		},
+		{
+			"ImportPath": "github.com/evanphx/json-patch",
+			"Comment": "v4.6.0",
+			"Rev": "bf22ed9311622d93e213ba31e4ae7a5771e5d379"
+		},
+		{
+			"ImportPath": "github.com/lib/pq",
+			"Comment": "v1.3.0-4-g9eb3fc8",
+			"Rev": "9eb3fc897d6fd97dd4aad3d0404b54e2f7cc56be"
+		},
+		{
+			"ImportPath": "github.com/lib/pq/oid",
+			"Comment": "v1.3.0-4-g9eb3fc8",
+			"Rev": "9eb3fc897d6fd97dd4aad3d0404b54e2f7cc56be"
+		},
+		{
+			"ImportPath": "github.com/lib/pq/scram",
+			"Comment": "v1.3.0-4-g9eb3fc8",
+			"Rev": "9eb3fc897d6fd97dd4aad3d0404b54e2f7cc56be"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-sqlite3",
+			"Comment": "v2.0.3-1-g67986a7",
+			"Rev": "67986a7832dcbda29de5c1341b3dec6c6d97511a"
+		},
+		{
+			"ImportPath": "github.com/pkg/errors",
+			"Comment": "v0.9.1",
+			"Rev": "614d223910a179a466c1767a985424175c39b465"
+		},
+		{
+			"ImportPath": "github.com/rs/rest-layer/resource",
+			"Comment": "v0.2.0-3-g0fa67ca",
+			"Rev": "0fa67ca486a972bd2ee8837c3c2591c4909858c4"
+		},
+		{
+			"ImportPath": "github.com/rs/rest-layer/rest",
+			"Comment": "v0.2.0-3-g0fa67ca",
+			"Rev": "0fa67ca486a972bd2ee8837c3c2591c4909858c4"
+		},
+		{
+			"ImportPath": "github.com/rs/rest-layer/schema",
+			"Comment": "v0.2.0-3-g0fa67ca",
+			"Rev": "0fa67ca486a972bd2ee8837c3c2591c4909858c4"
+		},
+		{
+			"ImportPath": "github.com/rs/rest-layer/schema/query",
+			"Comment": "v0.2.0-3-g0fa67ca",
+			"Rev": "0fa67ca486a972bd2ee8837c3c2591c4909858c4"
+		},
+		{
+			"ImportPath": "github.com/rs/xid",
+			"Comment": "v1.2.1-6-gd13a608",
+			"Rev": "d13a6085d55cbbaaf2baf1d5518d9e2897cb10da"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/bcrypt",
+			"Rev": "becbf705a91575484002d598f87d74f0002801e7"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/blowfish",
+			"Rev": "becbf705a91575484002d598f87d74f0002801e7"
+		}
+	]
+}
