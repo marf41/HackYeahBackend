@@ -102,6 +102,9 @@ func main() {
 	api, err := rest.NewHandler(index)
 	if err != nil { log.Fatalf("Invalid API configuration: %s", err) }
 	http.Handle("/", middleware(api))
-    log.Print("Serving API on :80")
-	if err := http.ListenAndServe(":80", nil); err != nil { log.Fatal(err) }
+
+    port := os.Getenv("PORT")
+	if port == "" { log.Fatal("$PORT must be set") }
+    log.Print("Serving API on :" + port)
+	if err := http.ListenAndServe(":" + port, nil); err != nil { log.Fatal(err) }
 }
