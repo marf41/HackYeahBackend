@@ -1,1 +1,1 @@
-web: cd bin && chmod +x hyback && ./hyback
+web: cd bin && chmod +x hackyeah && ./hackyeah
